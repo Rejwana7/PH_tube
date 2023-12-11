@@ -50,7 +50,7 @@ const loadDrawingdata = () => {
 
 
 const sortbyview=()=>{
-    fetch("https://openapi.programming-hero.com/api/videos/category/1000")
+   fetch(`https://openapi.programming-hero.com/api/videos/category/${allid}`)
     .then((res)=>res.json())
     // .then((data)=>{
     //     data.data.forEach((data)=>{
